@@ -13,7 +13,7 @@ export default defineConfig({
       formats: ['es', 'cjs', 'umd']
     },
     rollupOptions: {
-      external: ['react', 'react-dom', '@mui/material', '@emotion/react', '@emotion/styled'],
+      external: ['react', 'react-dom'], // '@mui/material', '@emotion/react', '@emotion/styled'],
       output: {
         globals: {
           react: 'React',

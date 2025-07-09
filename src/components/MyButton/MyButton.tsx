@@ -8,9 +8,10 @@ export interface MyButtonProps {
 }
 
 export const MyButton: React.FC<MyButtonProps> = ({ label, onClick }) => {
+  console.log(styles.myButton)
   return (
     <Button className={styles.myButton} variant="contained" onClick={onClick}>
-      {label}
+      {label} Test
     </Button>
   );
 };

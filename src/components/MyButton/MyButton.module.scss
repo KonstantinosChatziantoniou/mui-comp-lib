@@ -1,4 +1,7 @@
-.myButton {
-  border-radius: 8px;
+@use "../../constants.scss";
+
+button.myButton {
+  background-color: constants.$main-color;
+  border-radius: 18px;
   font-weight: bold;
 }
