@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && tsc",
     "dev": "vite",
     "type-check": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",

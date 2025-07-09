@@ -2,7 +2,8 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "dist/types",
-    "emitDeclarationOnly": false,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
     "outDir": "dist",
     "jsx": "react-jsx",
     "moduleResolution": "node",
@@ -12,5 +13,7 @@
     "skipLibCheck": true,
     "strict": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/**/*.stories.tsx", "src/**/*.stories.ts", "src/**/*.test.tsx", "src/stories/**", ".storybook/**"]
+
 }
