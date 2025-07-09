@@ -1,0 +1,35 @@
+{
+  "name": "your-component-library",
+  "version": "0.1.0",
+  "main": "./dist/your-component-library.umd.js",
+  "module": "./dist/your-component-library.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@mui/material": "^5.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.3"
+  }
+}
